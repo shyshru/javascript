@@ -23,3 +23,18 @@ let num=3
 let stringNum = String(num)
 console.log(stringNum)
 console.log(typeof stringNum)
+
+console.log(1+2)
+console.log(1+"2")
+console.log("1"+2)
+console.log("1"+2+2)
+console.log(1+2+"2")
+
+console.log(true)
+console.log(+true)
+console.log(+"")
+
+let gameCounter=100
+gameCounter++;
+console.log(gameCounter)
+//prefix and postfix operator
