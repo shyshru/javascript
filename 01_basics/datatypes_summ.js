@@ -37,3 +37,19 @@ console.log(typeof anotherId);
 console.log(typeof heros);
 console.log(typeof myFunction);
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+//================================================
+//Stack(Primitive), Heap(Non-Primitive)
+let myNickname = "tina"
+let anotherName = myNickname
+anotherName = "diya"
+console.log(anotherName)
+console.log(myNickname)
+
+let userOne = {
+    email:"user@google.com",
+    upi: "user@sbi"
+}
+let userTwo = userOne
+userTwo.email = "usertwo@yahoo.com"
+console.log(userOne.email)
