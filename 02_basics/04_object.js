@@ -54,3 +54,30 @@ console.log(Object.entries(tinderUser)) //array datatype
 
 console.log(tinderUser.hasOwnProperty('isLoggedIn'))
 //go to console type obj check its proto function
+
+
+const course = {
+    coursename : "js",
+    price : 300,
+    courseInstructor : "hitesh"
+}
+// course.courseinstructor
+const {courseInstructor: instructor} = course //destructuring oobject
+console.log(instructor)
+
+// const navbar=  ({company}) =>{
+
+// }
+// navbar(company = "hitesh")
+// {
+//     "name" : "shriyanshi",
+//     "course" : "chaijss",
+//     "price" : "free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
+//api json formatter
