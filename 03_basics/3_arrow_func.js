@@ -54,5 +54,5 @@ const hey =() =>({name:"tanya"})
 console.log(hey())   //to return object you have to wrap in paRANTHESES
 
 
-// const myArray = [4,6,4,5]
-// console.log(myArray.forEach(() =>{}))
+const myArray = [4,6,4,5]
+myArray.forEach((el) => console.log(el))
